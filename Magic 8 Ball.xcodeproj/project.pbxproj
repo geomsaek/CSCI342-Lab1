@@ -14,6 +14,7 @@
 		C95FC32E1C8D35BB0020A97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95FC32C1C8D35BB0020A97C /* LaunchScreen.storyboard */; };
 		C95FC3391C8D35BB0020A97C /* Magic_8_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95FC3381C8D35BB0020A97C /* Magic_8_BallTests.swift */; };
 		C95FC3441C8D35BB0020A97C /* Magic_8_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95FC3431C8D35BB0020A97C /* Magic_8_BallUITests.swift */; };
+		C95FC3521C8D40350020A97C /* EightBallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95FC3511C8D40350020A97C /* EightBallModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C95FC33F1C8D35BB0020A97C /* Magic 8 BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic 8 BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95FC3431C8D35BB0020A97C /* Magic_8_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_8_BallUITests.swift; sourceTree = "<group>"; };
 		C95FC3451C8D35BB0020A97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95FC3511C8D40350020A97C /* EightBallModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightBallModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C95FC3231C8D35BB0020A97C /* AppDelegate.swift */,
 				C95FC3251C8D35BB0020A97C /* ViewController.swift */,
+				C95FC3511C8D40350020A97C /* EightBallModel.swift */,
 				C95FC3271C8D35BB0020A97C /* Main.storyboard */,
 				C95FC32A1C8D35BB0020A97C /* Assets.xcassets */,
 				C95FC32C1C8D35BB0020A97C /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				C95FC3261C8D35BB0020A97C /* ViewController.swift in Sources */,
 				C95FC3241C8D35BB0020A97C /* AppDelegate.swift in Sources */,
+				C95FC3521C8D40350020A97C /* EightBallModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
